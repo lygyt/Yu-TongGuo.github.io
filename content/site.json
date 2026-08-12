@@ -1,0 +1,60 @@
+{
+  "profile": {
+    "name": { "zh": "林知远", "en": "Zhiyuan Lin" },
+    "role": { "zh": "计算机科学博士生", "en": "Ph.D. Candidate in Computer Science" },
+    "affiliation": { "zh": "示例大学 · 智能系统实验室", "en": "Example University · Intelligent Systems Lab" },
+    "location": { "zh": "中国 · 上海", "en": "Shanghai, China" },
+    "email": "zhiyuan.lin@example.edu",
+    "intro": {
+      "zh": "我的研究关注人机协作与可信机器学习，尤其关心智能系统如何在真实环境中被理解、检验与使用。",
+      "en": "My research focuses on human–AI collaboration and trustworthy machine learning, with an emphasis on how intelligent systems are understood, evaluated, and used in real-world settings."
+    },
+    "interests": [
+      { "zh": "人机交互", "en": "Human–Computer Interaction" },
+      { "zh": "可信人工智能", "en": "Trustworthy AI" },
+      { "zh": "计算社会科学", "en": "Computational Social Science" }
+    ],
+    "portrait": "portrait.png",
+    "links": [
+      { "label": "Google Scholar", "url": "https://scholar.google.com/" },
+      { "label": "GitHub", "url": "https://github.com/" },
+      { "label": "ORCID", "url": "https://orcid.org/" }
+    ]
+  },
+  "news": [
+    { "date": "2026.07", "text": { "zh": "论文被示例会议接收。", "en": "Our paper was accepted at Example Conference." } },
+    { "date": "2026.03", "text": { "zh": "开始在智能系统实验室访问研究。", "en": "Started a research visit at the Intelligent Systems Lab." } }
+  ],
+  "publications": [
+    {
+      "year": "2026",
+      "title": { "zh": "面向真实世界协作的可解释智能系统", "en": "Interpretable Intelligent Systems for Real-World Collaboration" },
+      "authors": "Zhiyuan Lin, Coauthor Name",
+      "venue": "Example Conference 2026",
+      "featured": true,
+      "links": [{ "label": "Paper", "url": "#" }, { "label": "Code", "url": "#" }]
+    },
+    {
+      "year": "2025",
+      "title": { "zh": "以人为中心的模型评估方法", "en": "Human-Centered Methods for Model Evaluation" },
+      "authors": "Coauthor Name, Zhiyuan Lin",
+      "venue": "Example Journal, 2025",
+      "links": [{ "label": "DOI", "url": "#" }]
+    }
+  ],
+  "projects": [
+    {
+      "period": "2025—至今",
+      "title": { "zh": "协作式人工智能评估平台", "en": "Collaborative AI Evaluation Platform" },
+      "description": { "zh": "研究人与模型共同决策时的信任校准与交互机制。", "en": "Studying trust calibration and interaction mechanisms in human–AI decision-making." },
+      "url": "#"
+    }
+  ],
+  "teaching": [
+    { "term": "2026 Spring", "title": { "zh": "人机交互导论", "en": "Introduction to HCI" }, "role": { "zh": "助教", "en": "Teaching Assistant" } }
+  ],
+  "education": [
+    { "period": "2023—至今", "degree": { "zh": "计算机科学 博士", "en": "Ph.D. in Computer Science" }, "institution": { "zh": "示例大学", "en": "Example University" } },
+    { "period": "2019—2023", "degree": { "zh": "计算机科学 学士", "en": "B.Sc. in Computer Science" }, "institution": { "zh": "示例大学", "en": "Example University" } }
+  ]
+}

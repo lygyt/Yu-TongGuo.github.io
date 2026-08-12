@@ -1,0 +1,5 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>主页内容管理</title><link rel="stylesheet" href="admin.css"></head><body>
+<main><header><div><a href="../">← 返回主页</a><h1>内容管理</h1><p>连接 GitHub 后，在这里修改整站内容并发布。</p></div><span id="status">未连接</span></header>
+<section id="setup"><h2>连接仓库</h2><div class="grid"><label>GitHub 用户名<input id="owner" placeholder="your-name"></label><label>仓库名<input id="repo" placeholder="your-name.github.io"></label><label>分支<input id="branch" value="main"></label></div><label>Fine-grained access token<input id="token" type="password" placeholder="github_pat_…"></label><p class="note">令牌只保存在当前浏览器。权限仅需该仓库的 Contents: Read and write。</p><button id="connect">连接并载入</button></section>
+<section id="editor" hidden><div class="toolbar"><button id="format">整理格式</button><button id="save" class="primary">提交并发布</button></div><label>网站内容（JSON）<textarea id="content" spellcheck="false"></textarea></label><p class="note">中英文内容分别写在 <code>zh</code> 和 <code>en</code> 中。保存后 GitHub Pages 会自动重新发布。</p></section>
+</main><script src="admin.js"></script></body></html>
