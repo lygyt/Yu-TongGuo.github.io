@@ -1,60 +1,66 @@
 {
   "profile": {
-    "name": { "zh": "林知远", "en": "Zhiyuan Lin" },
-    "role": { "zh": "计算机科学博士生", "en": "Ph.D. Candidate in Computer Science" },
-    "affiliation": { "zh": "示例大学 · 智能系统实验室", "en": "Example University · Intelligent Systems Lab" },
-    "location": { "zh": "中国 · 上海", "en": "Shanghai, China" },
-    "email": "zhiyuan.lin@example.edu",
+    "name": { "zh": "郭宇童", "en": "Yutong Guo" },
+    "role": { "zh": "学生", "en": "Student" },
+    "affiliation": { "zh": "计算机与信息学院（人工智能学院） · 合肥工业大学", "en": "School of Computer Science and Information Engineering · Hefei University of Technology" },
+    "location": { "zh": "中国 · 合肥", "en": "Hefei, China" },
+    "email": "",
     "intro": {
-      "zh": "我的研究关注人机协作与可信机器学习，尤其关心智能系统如何在真实环境中被理解、检验与使用。",
-      "en": "My research focuses on human–AI collaboration and trustworthy machine learning, with an emphasis on how intelligent systems are understood, evaluated, and used in real-world settings."
+      "zh": "我就读于合肥工业大学计算机与信息学院（人工智能学院）。我的研究兴趣包括无线感知、人机交互、普适计算与智能健康感知。目前的工作关注基于 WiFi 信号的跨域手势识别、无接触呼吸功能检测及感知系统的实际部署。",
+      "en": "I am a student at the School of Computer Science and Information Engineering, Hefei University of Technology. My research interests include wireless sensing, human-computer interaction, ubiquitous computing, and intelligent health sensing. My current work focuses on cross-domain WiFi gesture recognition, contact-free pulmonary function assessment, and practical sensing systems."
     },
     "interests": [
-      { "zh": "人机交互", "en": "Human–Computer Interaction" },
-      { "zh": "可信人工智能", "en": "Trustworthy AI" },
-      { "zh": "计算社会科学", "en": "Computational Social Science" }
+      { "zh": "无线感知", "en": "Wireless Sensing" },
+      { "zh": "人机交互", "en": "Human-Computer Interaction" },
+      { "zh": "普适计算", "en": "Ubiquitous Computing" },
+      { "zh": "智能健康感知", "en": "Intelligent Health Sensing" }
     ],
     "portrait": "portrait.png",
     "links": [
-      { "label": "Google Scholar", "url": "https://scholar.google.com/" },
-      { "label": "GitHub", "url": "https://github.com/" },
-      { "label": "ORCID", "url": "https://orcid.org/" }
+      { "label": "Google Scholar", "url": "https://scholar.google.com/scholar?q=%22Yu-Tong+Guo%22+%22Hefei+University+of+Technology%22" },
+      { "label": "GitHub", "url": "https://github.com/lygyt" }
     ]
   },
+  "openings": { "zh": "欢迎对无线感知、人机交互与智能健康感兴趣的同学交流合作。", "en": "I welcome discussions and collaborations on wireless sensing, human-computer interaction, and intelligent health." },
   "news": [
-    { "date": "2026.07", "text": { "zh": "论文被示例会议接收。", "en": "Our paper was accepted at Example Conference." } },
-    { "date": "2026.03", "text": { "zh": "开始在智能系统实验室访问研究。", "en": "Started a research visit at the Intelligent Systems Lab." } }
+    { "date": "2025.12", "text": { "zh": "关于大模型感知的跨域 WiFi 手势识别论文发表于 IEEE ICPADS 2025。", "en": "Our work on large-model-aware cross-domain WiFi gesture recognition was published at IEEE ICPADS 2025." } },
+    { "date": "2025.04", "text": { "zh": "作为团队成员获中国国际大学生创新大赛（2024）产业命题赛道国家级金奖。", "en": "Received a National Gold Award as a team member in the Industry Track of the China International College Students' Innovation Competition (2024)." } },
+    { "date": "2025.01", "text": { "zh": "Wi-Pulmo 无接触肺功能感知研究发表于 IEEE Internet of Things Journal。", "en": "Our contact-free pulmonary function sensing work, Wi-Pulmo, was published in IEEE Internet of Things Journal." } }
   ],
   "publications": [
     {
-      "year": "2026",
-      "title": { "zh": "面向真实世界协作的可解释智能系统", "en": "Interpretable Intelligent Systems for Real-World Collaboration" },
-      "authors": "Zhiyuan Lin, Coauthor Name",
-      "venue": "Example Conference 2026",
+      "year": "2025",
+      "title": { "zh": "基于大模型语义蒸馏与对齐的跨域 WiFi 手势识别", "en": "Generalizing WiFi Gesture Recognition via Large-Model-Aware Semantic Distillation and Alignment" },
+      "authors": "Feng-Qi Cui, Yu-Tong Guo, Tianyue Zheng, Jinyang Huang*",
+      "venue": "The 31st IEEE International Conference on Parallel and Distributed Systems (ICPADS), 2025",
       "featured": true,
-      "links": [{ "label": "Paper", "url": "#" }, { "label": "Code", "url": "#" }]
+      "links": [{ "label": "Scholar", "url": "https://scholar.google.com/scholar?q=%22Generalizing+WiFi+Gesture+Recognition+via+Large-Model-Aware+Semantic+Distillation+and+Alignment%22" }]
     },
     {
       "year": "2025",
-      "title": { "zh": "以人为中心的模型评估方法", "en": "Human-Centered Methods for Model Evaluation" },
-      "authors": "Coauthor Name, Zhiyuan Lin",
-      "venue": "Example Journal, 2025",
-      "links": [{ "label": "DOI", "url": "#" }]
+      "title": { "zh": "Wi-Pulmo：基于商用 WiFi 的无接触肺功能检测", "en": "Wi-Pulmo: Commodity WiFi Can Capture Your Pulmonary Function Without Mouth Clinging" },
+      "authors": "Peng Zhao, Jinyang Huang*, Xiang Zhang, Zhi Liu, Huan Yan, Meng Wang, Guohang Zhuang, Yutong Guo, Xiao Sun, Meng Li",
+      "venue": "IEEE Internet of Things Journal, 12(1): 854–868, 2025",
+      "featured": true,
+      "links": [{ "label": "DOI", "url": "https://doi.org/10.1109/JIOT.2024.3470321" }, { "label": "PDF", "url": "https://happyisac.github.io/PersonHomePage/paper/IOTJ_2024_ZhaoPeng.pdf" }]
     }
+  ],
+  "patents": [
+    { "year": "2025", "title": { "zh": "一种基于面部关键点时空特征融合的情绪检测方法", "en": "An Emotion Detection Method Based on Spatiotemporal Feature Fusion of Facial Keypoints" }, "inventors": "黄锦阳、郭宇童、赵嘉铖、崔丰麒、郑天越、郭丹、汪萌", "number": "ZL 2025 1 1370987.0" },
+    { "year": "2025", "title": { "zh": "一种基于横纵笔画分解的非接触握笔姿势校准方法及系统", "en": "A Non-contact Pen-holding Posture Calibration Method and System Based on Horizontal and Vertical Stroke Decomposition" }, "inventors": "黄锦阳、郭宇童、赵嘉铖、李翰臻、胡双真、周沐阳、单傲祥等", "number": "ZL 2025 1 1015476.7" }
   ],
   "projects": [
-    {
-      "period": "2025—至今",
-      "title": { "zh": "协作式人工智能评估平台", "en": "Collaborative AI Evaluation Platform" },
-      "description": { "zh": "研究人与模型共同决策时的信任校准与交互机制。", "en": "Studying trust calibration and interaction mechanisms in human–AI decision-making." },
-      "url": "#"
-    }
+    { "period": "2024—2025", "title": { "zh": "跨域 WiFi 手势识别", "en": "Cross-domain WiFi Gesture Recognition" }, "description": { "zh": "通过大模型感知的语义蒸馏与对齐，提高 WiFi 手势识别系统在跨域部署中的泛化能力。", "en": "Improving WiFi gesture recognition across deployment domains through large-model-aware semantic distillation and alignment." } },
+    { "period": "2024—2025", "title": { "zh": "Wi-Pulmo 无接触肺功能感知", "en": "Wi-Pulmo Contact-free Pulmonary Function Sensing" }, "description": { "zh": "利用商用 WiFi 信道状态信息实现无接触肺功能参数评估。", "en": "Using commodity WiFi channel state information for contact-free pulmonary function assessment." }, "url": "https://doi.org/10.1109/JIOT.2024.3470321" }
   ],
   "teaching": [
-    { "term": "2026 Spring", "title": { "zh": "人机交互导论", "en": "Introduction to HCI" }, "role": { "zh": "助教", "en": "Teaching Assistant" } }
+    { "term": "2025—2026", "title": { "zh": "中国青年志愿者研究生支教团", "en": "China Graduate Volunteer Teaching Program" }, "role": { "zh": "第27届成员", "en": "Member of the 27th cohort" } }
   ],
-  "education": [
-    { "period": "2023—至今", "degree": { "zh": "计算机科学 博士", "en": "Ph.D. in Computer Science" }, "institution": { "zh": "示例大学", "en": "Example University" } },
-    { "period": "2019—2023", "degree": { "zh": "计算机科学 学士", "en": "B.Sc. in Computer Science" }, "institution": { "zh": "示例大学", "en": "Example University" } }
+  "activities": [
+    { "year": "2024", "text": { "zh": "入选合肥工业大学第27届研究生支教团。", "en": "Selected for the 27th Graduate Volunteer Teaching Program of Hefei University of Technology." } },
+    { "year": "2024", "text": { "zh": "参与“智枕无忧，审眠度势”智能无感睡眠疾病检测与健康守护项目。", "en": "Contributed to an intelligent, unobtrusive sleep-disorder detection and health monitoring project." } }
+  ],
+  "awards": [
+    { "year": "2024", "text": { "zh": "中国国际大学生创新大赛（2024）产业命题赛道国家级金奖（团队成员）。", "en": "National Gold Award, Industry Track, China International College Students' Innovation Competition (team member)." } }
   ]
 }
