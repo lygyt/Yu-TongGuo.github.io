@@ -4,7 +4,7 @@
     "role": { "zh": "学生", "en": "Student" },
     "affiliation": { "zh": "计算机与信息学院（人工智能学院） · 合肥工业大学", "en": "School of Computer Science and Information Engineering · Hefei University of Technology" },
     "location": { "zh": "中国 · 合肥", "en": "Hefei, China" },
-    "email": "",
+    "email": "yu-tongguo@mail.hfut.edu.cn",
     "intro": {
       "zh": "我就读于合肥工业大学计算机与信息学院（人工智能学院）。我的研究兴趣包括无线感知、人机交互、普适计算与智能健康感知。目前的工作关注基于 WiFi 信号的跨域手势识别、无接触呼吸功能检测及感知系统的实际部署。",
       "en": "I am a student at the School of Computer Science and Information Engineering, Hefei University of Technology. My research interests include wireless sensing, human-computer interaction, ubiquitous computing, and intelligent health sensing. My current work focuses on cross-domain WiFi gesture recognition, contact-free pulmonary function assessment, and practical sensing systems."
